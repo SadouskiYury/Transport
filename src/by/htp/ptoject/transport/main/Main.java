@@ -18,9 +18,8 @@ import by.htp.ptoject.transport.entity.trasports.Yacht;
 public class Main  {
 	/* транспортные средства будущего
 	вести учет транспрота вывести на экран 
-	сортировка по стоимости проезда(количесвто пасажиров)
-	скорости премещения из а в б
-	количество не меннее 10 */
+	сортировка по скорости премещения 
+	количесвто транспорта не менее 10 */
 	public static void main(String[] args) {
 	Transport car=new ElectroCar("Porche",256.7,4,"red","passenger",4,"electro");
 	Transport bus=new ElectroBus("Neopllan",180.78,55,"green","passenger",12,"City");
